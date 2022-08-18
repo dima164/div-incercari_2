@@ -1,0 +1,37 @@
+Example:
+user> vi myfile.txt
+(vi: open vi editor and edit myfile.txt.) find: look for a file
+Example:
+user> find directory –type f –name myfile.txt -print (find: look for a file.
+-type f: specify a file
+-name: specify a filename
+-print: print)
+wc: show word count of a file Example:
+user> wc myfile.txt
+(wc: show word count of myfile.txt.) file: estimate the type of a file Example:
+user> file myfile.txt
+(file: estimate the type of myfile.txt.) ln: create a link to a file
+Example:
+user> ln dir1/file1.txt dir2/file2.txt (ln: create a link between file1 and file2) ln s: create a symbolic link between two files Example:
+user> ln –s dir1/file1.txt dir2/file2.txt (ln-s: create a symbolic link between file1
+and file2) (-s: a symbolic link allows a given file to appear in many places or
+under many names at once. For instance, symbolic links can link to directories. )
+readlink: show the target of a symbolic link Example:
+user> readlink dir2/file2.txt (the output : dir1/file1.txt) lpr: sent a file to
+printer
+Example:
+user> lpr myfile.txt
+(lpr: sent myfile.txt to printer.) lpq: display the print queue.
+Example:
+user> lpq
+(lpq: display the print queue.) Summary:
+cp: copy a file
+mv: move a file
+mv: rename a file
+rm: remove a file
+rm –ri: remove a non-empty directory vi: open vi editor and edit a file find: look
+for a file
+wc: show word count of a file
+file: estimate the type of a file ln: create a link between two files ln -s: create a
+
+
